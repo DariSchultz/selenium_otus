@@ -24,22 +24,3 @@ def browser(request):
     driver.url = url
     yield driver
     driver.quit()
-
-
-
-
-
-
-
-
-
-# chrome = webdriver.Chrome() # Для автоматического скачивания дров + обозначение браузера, с которым надо взаимодействовать
-# firefox = webdriver.Firefox()
-# opera = webdriver.
-# chrome.get('https://ya.ru') # Для выполнения открытия и запроса в определенном браузере
-
-
-
-
-
-
